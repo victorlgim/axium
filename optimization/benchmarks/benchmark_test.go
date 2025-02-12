@@ -2,7 +2,7 @@ package benchmarks
 
 import (
 	"testing"
-	"github.com/yourusername/optimization/algorithms"
+	"github.com/victorlgim/axium/optimization/algorithms"
 )
 
 func generateTestArray(size int) []float64 {
@@ -37,10 +37,4 @@ func BenchmarkRMSprop(b *testing.B) {
 	}
 }
 
-func BenchmarkGeneticAlgorithm(b *testing.B) {
-	arr := generateTestArray(10000)
-	b.ResetTimer()
-	for i := 0; i < b.N; i++ {
-		algorithms.GeneticAlgorithm(arr)
-	}
-}
+

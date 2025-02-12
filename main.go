@@ -3,10 +3,8 @@ package main
 import (
 	"fmt"
 	"log"
-	"os"
-	"runtime"
 	"time"
-	"github.com/victorlgim/optimization/algorithms"
+	"github.com/victorlgim/axium/optimization/algorithms"
 )
 
 func main() {
@@ -22,15 +20,7 @@ func main() {
 		{"Momentum", algorithms.Momentum},
 		{"Adagrad", algorithms.Adagrad},
 		{"Nesterov Accelerated Gradient", algorithms.NAG},
-		{"L-BFGS", algorithms.LBFGS},
-		{"Simulated Annealing", algorithms.SimulatedAnnealing},
-		{"Newton's Method", algorithms.NewtonsMethod},
-		{"CMA-ES", algorithms.CMAES},
-		{"Bayesian Optimization", algorithms.BayesianOptimization},
-		{"Genetic Algorithm", algorithms.GeneticAlgorithm},
-		{"Particle Swarm Optimization", algorithms.PSO},
 		{"Ant Colony Optimization", algorithms.ACO},
-		{"Differential Evolution", algorithms.DifferentialEvolution},
 	}
 
 	arr := generateRandomArray(10000)
