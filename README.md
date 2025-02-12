@@ -32,6 +32,5 @@ go run main.go
 - Improve memory profiling and CPU utilization analysis.
 - Extend benchmark tests to include convergence speed and accuracy.
 
-## License
-This project is licensed under the MIT License.
+
 
