@@ -27,10 +27,5 @@ cd optimization-benchmark
 go run main.go
 ```
 
-## Future Improvements
-- Add more optimization algorithms like **Bayesian Optimization**, **Particle Swarm Optimization**, and **Genetic Algorithms**.
-- Improve memory profiling and CPU utilization analysis.
-- Extend benchmark tests to include convergence speed and accuracy.
-
 
 
